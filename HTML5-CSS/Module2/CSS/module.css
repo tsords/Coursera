@@ -1,0 +1,60 @@
+@media (min-width: 992px) {
+    div.MenuText {
+        width: calc(33.3% - 10px);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    div.MenuText {
+        width: calc(50% - 10px);
+    }
+    
+    #lowerBar {
+        width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    div.MenuText {
+        width: auto;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div.MenuText {
+    float: left;
+    border: black solid 1px;
+    background: grey;
+    padding-top: 25px;
+    margin: 5px;
+}
+
+div.MenuTitle {
+    float: right;
+    border: black solid 1px;
+    text-align: center;
+    width: 100px;
+    margin-top: -26px;
+    margin-right: -1px;
+    font-size: 125%;
+}
+
+.Title {
+    text-align: center;
+}
+
+#Chicken {
+    background-color: yellow;
+}
+
+#Beef {
+    background-color:  red;
+}
+
+#Sushi {
+    background-color:  pink;
+}
+
